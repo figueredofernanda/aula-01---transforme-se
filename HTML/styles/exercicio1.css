@@ -1,0 +1,107 @@
+body{
+    text-align: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 254, 182);
+    padding: 40px;
+}
+
+h1{
+    color: rgb(175, 110, 91);
+}
+
+p{
+    font-family: cursive;
+    color: rgb(206, 89, 105);
+    font-size: 20px;
+}
+
+img{
+    width: 200px;
+    border-radius: 35s%;
+    margin: 20px 0;
+}
+
+a{
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    background-color: rgba(243, 195, 124, 0.644);
+    color: rgb(228, 87, 87);
+    padding: 10px;
+    border-radius: 13px;
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: rgb(92, 42, 6);
+    transform: scale(1.05);
+}
+
+ul, ol{
+    width: 220px;
+    margin: 20px auto;
+    text-align: left;
+    color: rgb(82, 51, 12);
+    font-size: 17px;
+    background-color: rgb(209, 114, 46);
+    border-radius: 8px; /Deixando a borda redonda/
+    padding: 15px 15px 15px 35px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+h2{
+    font-size: 20px;
+    color: rgb(139, 91, 0);
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    width: 220px;
+    margin: 20px auto;
+    display: block;
+    background-color: rgb(189, 156, 58);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: left;
+       
+}
+
+
+label{
+    display: block;
+    font-size: 13px;
+    color: rgb(81, 59, 2);
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+button{
+    width: 100%;
+    margin-top: 15px;
+    background-color: rgb(249, 247, 225);
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: backgound-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(135, 103, 22);
+}
